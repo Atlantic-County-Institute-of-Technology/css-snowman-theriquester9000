@@ -20,41 +20,133 @@ background-color: #91ccdb;
     position: absolute;
     width: 300px;
     height: 320px;
-    top: 560px;
+    top: 600px;
     left: 350px;
     border-radius: 50%;
     background-color: white;
+}
 
+.chesteye {
+    position: absolute;
+    top: 60px;
+    left: 220px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.chestpupil{
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 7px;
+    top: 7px;
+    background-color:greenyellow;
+    border-radius: 50%;
+}
+.chestblack{
+    position: relative;
+    width: 7px;
+    height: 9px;
+    left: 7px;
+    top:5px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.arm {
+    position: relative; 
+    height: 150px;
+    width: 20px;
+    rotate: 45deg;
+    bottom: 50px;
+}
+
+.aleft {
+    background-color: rgb(112, 75, 5);
+    left: -50px;
+}
+
+.bighand {
+    position: relative;
+    top:100px;
+    right:25px;
+    width: 70px;
+    height: 100px;
+    background-color: rgb(112, 75, 5);
+}
+
+.aright{
+    background-color: rgb(112, 75, 5);
+    right: -328px;
+    top: 95px;
+    rotate: -45deg;
 }
 
 .head {
     position: absolute;
     width: 290px;
     height: 290px;
-    top: 300px;
+    top: 380px;
     left: 350px;
     border-radius: 50%;
     display:flex;
     background-color: white;
 }
+.headarm {
+    position: relative; 
+    bottom: 100px;
+    left: 10px;
+    height: 150px;
+    width: 20px;
+    rotate: -45deg;
+    background-color:rgb(112, 75, 5);
+}
 
 .eyes {
     position: absolute;
-    top: 100px;
+    top: 70px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 3px solid black;
+}
+
+.pupil {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cyan;
+    border-radius: 50%;
+}
+
+.black{
+    width: 5px;
+    height: 7px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: black;
+    border-radius: 50%;
 }
 
 .eleft {
-    background-color: black;
-    left: 80px;
+    background-color: white;
+    left: 50px;
+    top: 100px;
 }
 
+
+
 .eright {
-    background-color: black;
-    right: 80px;
+    background-color: white;
+    right: 60px;
 }
+
