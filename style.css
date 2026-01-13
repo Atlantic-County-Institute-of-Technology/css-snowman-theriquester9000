@@ -1,20 +1,24 @@
+/* The bottom of the body, and the container code below)*/
 .container {
-width: 1000px;
-height:1120px;
-border: 2px solid black;
-background-color: #91ccdb;
+    position: relative;
+    width: 1000px;
+    height:1120px;
+    border: 2px solid black;
+    background-color: #91ccdb;
 }
-
+/*All of these BELOW are part of the torso*/
 .bottom {
     position: absolute;
     width: 300px;
     height: 300px;
-    top: 829px;
+    top: 819px;
     left: 350px;
     display:flex;
     border-radius: 50%;
     background-color: white;
+    box-shadow: 10px 10px 50px;
 }
+
 
 .torso {
     position: absolute;
@@ -26,9 +30,47 @@ background-color: #91ccdb;
     background-color: white;
 }
 
+.torsomouth{
+    position: absolute;
+    width: 140px;
+    height: 120px;
+    top: 120px;
+    left: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: rgb(128, 0, 0);
+
+}
+.tongue3{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 70px;
+    rotate: 15deg;
+    border-radius: 50%;
+    background-color: palevioletred
+}
+.tongue{
+    position: relative;
+    top: 80px;
+    width: 30px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: palevioletred;
+}
+.tongue2{
+    position: absolute;
+    left: 25px;
+    top: 90px;
+    width: 35px;
+    height: 150px;
+    rotate: -17deg;
+    border-radius: 50%;
+    background-color: palevioletred;
+}
 .chesteye {
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 220px;
     width: 37px;
     height: 37px;
@@ -45,6 +87,37 @@ background-color: #91ccdb;
     border-radius: 50%;
 }
 .chestblack{
+    position: relative;
+    width: 7px;
+    height: 9px;
+    left: 7px;
+    top:5px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.shouldereye {
+    position: absolute;
+    top: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: white;
+}
+
+
+.shoulderpupil {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 7px;
+    top: 7px;
+    background-color:greenyellow;
+    border-radius: 50%;
+}
+
+.shoulderblack {
     position: relative;
     width: 7px;
     height: 9px;
@@ -81,7 +154,23 @@ background-color: #91ccdb;
     right: -328px;
     top: 95px;
     rotate: -45deg;
+    width: 15px;
 }
+
+.branch{ 
+    position: absolute; 
+    left: 33px;
+    top:80px;
+    height: 70px;
+    width: 10px;
+    rotate: -50deg;
+    bottom: 50px;
+    background-color: rgb(112, 75, 5);
+}
+
+
+
+/*all of the elements of the head below*/
 
 .head {
     position: absolute;
@@ -92,7 +181,31 @@ background-color: #91ccdb;
     border-radius: 50%;
     display:flex;
     background-color: white;
+    box-shadow:  5px 5px 20px;
 }
+.nose {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    width: 0; 
+    height: 0; 
+    rotate: -120deg;
+    border-left: 20px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-bottom: 100px solid orange; 
+}
+
+.mouth {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    top: 180px;
+    left: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: rgb(128, 0, 0);
+}
+
 .headarm {
     position: relative; 
     bottom: 100px;
@@ -101,6 +214,21 @@ background-color: #91ccdb;
     width: 20px;
     rotate: -45deg;
     background-color:rgb(112, 75, 5);
+}
+
+.antler {
+    position: absolute;
+    top: -20px;
+    height: 50px;
+    width: 20px;
+    rotate: 20deg;
+    background: rgb(112, 75, 5);
+}
+
+.a2 {
+    top: -75px;
+    left: 15px;
+    rotate: 1deg;
 }
 
 .eyes {
@@ -148,5 +276,8 @@ background-color: #91ccdb;
 .eright {
     background-color: white;
     right: 60px;
+    top: 56px;
+    height: 40px;
+    width: 40px;
 }
 

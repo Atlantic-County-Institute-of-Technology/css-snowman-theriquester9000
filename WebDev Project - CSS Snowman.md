@@ -20,29 +20,29 @@ In this project, we'll use our HTML/CSS skills to make our very own winter snowm
 
 *First, we'll create the basics of our snowman.*
 
-* [ ] **The Body:** Three distinct circular segments (head, torso, base) are present and stacked vertically.
-* [ ] **Proportions:** There is a clear distinction between the head, torso, and 'legs' of the snowman.
-* [ ] **Facial Features:** AT LEAST Two eyes and one triangular carrot nose are present and positioned correctly on the head.
+* [x] **The Body:** Three distinct circular segments (head, torso, base) are present and stacked vertically.
+* [x] **Proportions:** There is a clear distinction between the head, torso, and 'legs' of the snowman.
+* [x] **Facial Features:** AT LEAST Two eyes and one triangular carrot nose are present and positioned correctly on the head.
 * [ ] **Accessories:** The snowman includes a decorative hat (with a ribbon), a scarf, and two branch arms.
-* [ ] **Anatomy:** Arms are positioned on the torso; the scarf appears at the "neck" between the head and torso.
+* [x] **Anatomy:** Arms are positioned on the torso; the scarf appears at the "neck" between the head and torso.
 
 ## **Part III: Styling & Advanced Techniques**
 
 *Once we have the basics, let's add some details to our snowman*
-* [ ] **Depth & Realism:** CSS gradients or box-shadows are used to create a 3D spherical effect on the body segments.
-* [ ] **Transform:** CSS rotate or skew is used effectively (e.g., angling the arms or tilting the hat).
-* [ ] **Detailing:** Branch arms include "finger" twigs, and the scarf features draping or texture.
-* [ ] **Creative Flair:** At least one unique enhancement is present (e.g., falling snow, a background landscape, or a coal smile).
+* [x] **Depth & Realism:** CSS gradients or box-shadows are used to create a 3D spherical effect on the body segments.
+* [x] **Transform:** CSS rotate or skew is used effectively (e.g., angling the arms or tilting the hat).
+* [x] **Detailing:** Branch arms include "finger" twigs, and the scarf features draping or texture.
+* [x] **Creative Flair:** At least one unique enhancement is present (e.g., falling snow, a background landscape, or a coal smile).
 ---
 
 ## **Grading Schema**
 
 Each grading specification follows the list below. Each specification is as follows:
 
-- [ ] **Technical Foundations**
-- [ ] The Snowman
-- [ ] CSS Image Properties - Gradients, Shadow, and Rotations
-- [ ] Detailing & Creative Flair
+- [x] **Technical Foundations**
+- [x] The Snowman
+- [x] CSS Image Properties - Gradients, Shadow, and Rotations
+- [x] Detailing & Creative Flair
 ### Point Allocation Table - Summative Assignment Features (General)
 
 | Score | Problem Solving                                                                                                                                  |
